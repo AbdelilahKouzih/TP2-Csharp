@@ -9,9 +9,13 @@
     
     
     }
+
+
+    
+
 }
 
-public class Question : Examen
+public class Question 
 {
     private string type;
 
@@ -29,13 +33,15 @@ public class Reponse
 {
     private string degre_certitude;
 
-
+    public Reponse() { }
 }
 
 public class Proposition
 {
-    
+    public Proposition() { }
 }
+
+
 public class Etudiant
 {
     private string Nom;
@@ -48,6 +54,8 @@ public class Etudiant
     }
 
 }
+
+
 
 
 
