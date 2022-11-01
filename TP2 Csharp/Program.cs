@@ -29,6 +29,11 @@ public  abstract class Examen
 
         return date_debut + date_fin;
 
+    } 
+
+    public void set_date( int nouveau_date)
+    {
+        date_debut = nouveau_date;
     }
 
 
