@@ -13,21 +13,14 @@
     public double getmesure_duree( int date_fin)
     {
 
-        return  date_debut + date_fin;
+        return date_debut + date_fin;
 
     }
 
 
-
-
-     
-
-
-
-
-    
-
 }
+
+
 
 public class Question 
 {
@@ -35,20 +28,30 @@ public class Question
 
 
     public Question() { }
-    public void repondre() 
+    public bool repondre( bool reponder) 
     {
+        return reponder;
         
     }
 
 
 }
 
+
+
+
 public class Reponse
 {
-    private string degre_certitude;
+    private int degre_certitude;
 
     public Reponse() { }
+    public  int get_degre_certitude()
+    {
+        return degre_certitude;
+    }
 }
+
+
 
 public class Proposition
 {
@@ -62,6 +65,8 @@ public class Proposition
 }
 
 
+
+
 public class Etudiant
 {
     private string Nom;
@@ -73,9 +78,11 @@ public class Etudiant
         this.Prenom = Prenom;
     }
 
-    
-
-
+    public bool reussir( bool reuss)
+    {
+        return reuss;
+    }
+     
 }
 
 
