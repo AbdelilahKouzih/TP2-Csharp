@@ -58,14 +58,18 @@ public class Question
 public class Reponse
 {
     private int degre_certitude;
-  
+    private int duree_pour_repondre;
 
     public Reponse() { }
     public  int get_degre_certitude()
     {
         return degre_certitude;
     }
-
+    public void set_duree_pour_repondre( int nouveau_duree)
+    {
+        duree_pour_repondre = nouveau_duree;
+    }
+    
      
 }
 
