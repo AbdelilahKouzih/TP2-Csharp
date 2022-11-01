@@ -1,14 +1,24 @@
 ﻿
  public  abstract class Examen
 { 
-    private string date_debut ;
+    private int date_debut ;
 
-    public Examen(string date_debut) 
+    public Examen(int date_debut) 
     {
         this.date_debut = date_debut;
     
     
     }
+
+    public double mesure_duree( int date_fin)
+    {
+
+        return  date_debut + date_fin;
+
+    }
+     
+
+
 
 
     
