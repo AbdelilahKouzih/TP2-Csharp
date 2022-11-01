@@ -78,6 +78,7 @@ public class Reponse
 public class Proposition
 {
     private int nbr_proposition;
+
     public Proposition( int nbr_proposition) 
     { 
         this.nbr_proposition = nbr_proposition;
@@ -87,6 +88,13 @@ public class Proposition
     {
         return nbr_proposition;
     }
+    public void setnbr_proposition( int nouveaunbr)
+    {
+        nbr_proposition = nouveaunbr;
+    }
+
+    
+
 
     
 }
