@@ -10,12 +10,16 @@
     
     }
 
-    public double mesure_duree( int date_fin)
+    public double getmesure_duree( int date_fin)
     {
 
         return  date_debut + date_fin;
 
     }
+
+
+
+
      
 
 
@@ -31,7 +35,7 @@ public class Question
 
 
     public Question() { }
-    public void repondre()
+    public void repondre() 
     {
         
     }
@@ -48,7 +52,13 @@ public class Reponse
 
 public class Proposition
 {
+    private int nbr_proposition;
     public Proposition() { }
+
+     public int getnbr_proposition()
+    {
+        return nbr_proposition;
+    }
 }
 
 
@@ -62,6 +72,9 @@ public class Etudiant
         this.Nom = Nom;
         this.Prenom = Prenom;
     }
+
+    
+
 
 }
 
