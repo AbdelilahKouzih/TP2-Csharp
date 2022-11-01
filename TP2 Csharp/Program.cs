@@ -1,4 +1,5 @@
 ﻿
+using System.Collections;
 using System.Security.Cryptography.X509Certificates;
 
 public  abstract class Examen
@@ -38,6 +39,7 @@ public  abstract class Examen
 public class Question 
 {
     private string type;
+    
 
 
     public Question() { }
@@ -56,6 +58,7 @@ public class Question
 public class Reponse
 {
     private int degre_certitude;
+  
 
     public Reponse() { }
     public  int get_degre_certitude()
@@ -104,6 +107,7 @@ public class Etudiant
     }
      
 }
+  
 
 
 
