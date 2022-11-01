@@ -1,5 +1,5 @@
 ﻿
- public class Examen
+ public  abstract class Examen
 { 
     private string date_debut ;
 
@@ -16,6 +16,7 @@ public class Question : Examen
     private string type;
 
 
+    public Question() { }
     public void repondre()
     {
         
@@ -30,4 +31,23 @@ public class Reponse
 
 
 }
+
+public class Proposition
+{
+    
+}
+public class Etudiant
+{
+    private string Nom;
+    private string Prenom;
+
+    public Etudiant(string Nom, string Prenom)
+    {
+        this.Nom = Nom;
+        this.Prenom = Prenom;
+    }
+
+}
+
+
 
