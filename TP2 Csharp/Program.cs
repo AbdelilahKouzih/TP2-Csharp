@@ -62,6 +62,8 @@ public class Reponse
     {
         return degre_certitude;
     }
+
+     
 }
 
 
@@ -73,11 +75,13 @@ public class Proposition
     { 
         this.nbr_proposition = nbr_proposition;
     }
-
+     
      public int getnbr_proposition()
     {
         return nbr_proposition;
     }
+
+    
 }
 
 
