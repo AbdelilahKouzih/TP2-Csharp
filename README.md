@@ -1,3 +1,3 @@
 # TP2-Csharp
 
-![diagramme de classe examen](https://user-images.githubusercontent.com/116494217/203276929-b3b16439-0dcf-4cc1-9d5d-2391c8fd255c.png)
+![Capture d’écran 2022-11-23 224135](https://user-images.githubusercontent.com/116494217/203658035-39b52714-78ef-4f50-9b80-8b59414b9c6c.png)
