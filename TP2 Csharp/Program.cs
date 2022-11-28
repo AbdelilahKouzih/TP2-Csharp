@@ -80,23 +80,6 @@ public class Reponse
 
 
 
-public class Proposition
-{
-    private int nbr_proposition;
-
-    public Proposition( int nbr_proposition) 
-    { 
-        this.nbr_proposition = nbr_proposition;
-    }
-     
-     public int getnbr_proposition()
-    {
-        return nbr_proposition;
-    }
-    public void setnbr_proposition( int nouveaunbr)
-    {
-        nbr_proposition = nouveaunbr;
-    }
 
     
 
@@ -111,17 +94,16 @@ public class Etudiant
 {
     private string Nom;
     private string Prenom;
+    private double note;
 
-    public Etudiant(string Nom, string Prenom)
+    public Etudiant(string Nom, string Prenom, double note)
     {
         this.Nom = Nom;
         this.Prenom = Prenom;
+        this.note=note;
     }
 
-    public bool reussir( bool reuss)
-    {
-        return reuss;
-    }
+    
      
 }
   
